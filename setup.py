@@ -20,6 +20,7 @@ setup(
     author_email='erobredo@conabio.gob.mx, smartinez@conabio.gob.mx',
     install_requires=[
         'irekua-database',
+        'tqdm',
     ],
     classifiers=[
         'Environment :: Web Environment',
