@@ -80,8 +80,8 @@ class Migrator(object):
     def __init__(self, apps, stores=None):
         self.logger = logging.getLogger(self.name)
 
-        self.locality_model = apps.get_model('database.Locality')
-        self.locality_type_model = apps.get_model('database.LocalityType')
+        self.locality_model = apps.get_model('irekua_database.Locality')
+        self.locality_type_model = apps.get_model('irekua_database.LocalityType')
 
         self.spatial_backend = connections[router.db_for_write(self.locality_model)].ops
 
