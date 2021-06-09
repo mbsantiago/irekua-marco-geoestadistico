@@ -1,5 +1,5 @@
 attrs==19.3.0
-Django==2.2.7
+Django==2.2.22
 importlib-metadata==0.23
 irekua-database==0.1.1
 jsonschema==3.2.0
